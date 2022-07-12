@@ -47,7 +47,7 @@ def create_deck() -> Deck:
     deck = []
     for suit in SUITS:
         for this_value, rank in enumerate(RANKS):
-            card = {"rank": rank, "suit": suit, "value": this_value + 1}
+            card: Card = {"rank": rank, "suit": suit, "value": this_value + 1}
             deck.append(card)
     return deck
 
