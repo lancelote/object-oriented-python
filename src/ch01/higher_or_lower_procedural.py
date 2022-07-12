@@ -1,6 +1,6 @@
 import random
-from typing import TypedDict
 from typing import TypeAlias
+from typing import TypedDict
 
 Rank: TypeAlias = str
 Suit: TypeAlias = str
